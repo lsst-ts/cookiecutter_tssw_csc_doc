@@ -42,9 +42,10 @@
 
 .. Note that the "ts_" prefix is omitted from the title
 
-############
+#########################
 {{cookiecutter.csc_name}}
-############
+#########################
+
 .. update the following links to point to your CSC (rather than the athexapod)
 .. image:: https://img.shields.io/badge/GitHub-{{cookiecutter.csc_repo_name}}-green.svg
     :target: https://github.com/lsst-ts/{{cookiecutter.csc_repo_name}}
@@ -77,6 +78,12 @@ Example information may be link(s) to the higher-level classes which may be used
 
 User Documentation
 ==================
+
+.. This template has the user documentation in a subfolder.
+.. However, in cases where the user documentation is extremely short (<50 lines), one may move that content here and remove the subfolder.
+.. This will require modification of the heading styles and possibly renaming of the labels.
+.. If the content becomes too large, then it must be moved back to a subfolder and reformatted appropriately.
+
 User-level documentation, found at the link below, is aimed at personnel looking to perform the standard use-cases/operations with the {{cookiecutter.csc_name}}.
 
 .. toctree::
@@ -86,7 +93,7 @@ User-level documentation, found at the link below, is aimed at personnel looking
 .. _Configuration:
 
 Configuring the {{cookiecutter.csc_name}}
-=====================
+=========================================
 .. For CSCs where configuration is not required, this section can contain a single sentence stating so.
    More introductory information can also be added here (e.g. CSC XYZ requires both a configuration file containing parameters as well as several look-up tables to be operational).
 
@@ -101,6 +108,12 @@ The configuration for the {{cookiecutter.csc_name}} is described at the followin
 
 Development Documentation
 =========================
+
+.. This template has the user documentation in a subfolder.
+.. However, in cases where the user documentation is extremely short (<50 lines), one may move that content here and remove the subfolder.
+.. This will require modification of the heading styles and possibly renaming of the labels.
+.. If the content becomes too large, then it must be moved back to a subfolder and reformatted appropriately.
+
 This area of documentation focuses on the classes used, API's, and how to participate to the development of the {{cookiecutter.csc_name}} software packages.
 
 .. toctree::
@@ -112,7 +125,10 @@ This area of documentation focuses on the classes used, API's, and how to partic
 Version History
 ===============
 
-.. Version history/release notes are not yet standardized amongst CSCs. Depending upon the implementation, a single link to a file (e.g. release notes) may be sufficient.
+.. At the time of writing the Version history/release notes are not yet standardized amongst CSCs.
+.. Until then, it is not expected that both a version history and a release_notes be maintained.
+.. It is expected that each CSC link to whatever method of tracking is being used for that CSC until standardization occurs.
+.. No new work should be required in order to complete this section.
 
 The version history of the {{cookiecutter.csc_name}} is found at the following link.
 
