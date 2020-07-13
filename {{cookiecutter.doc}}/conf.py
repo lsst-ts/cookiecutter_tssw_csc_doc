@@ -9,3 +9,5 @@ _g.update(build_package_configs(
     project_name='{{cookiecutter.csc_repo_name}}',
     version=lsst.ts.{{cookiecutter.csc_name}}.version.__version__
 ))
+
+intersphinx_mapping["ts_xml"] = ("https://ts-xml.lsst.io", None)

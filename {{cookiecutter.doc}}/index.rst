@@ -36,7 +36,6 @@
   Feel free to delete this instructional comment.
 
 .. Fill out data so contacts section below is auto-populated
-.. add name and email between the *'s below e.g. *Marie Smith <msmith@lsst.org>*
 .. |CSC_developer| replace::  *Replace-with-name-and-email*
 .. |CSC_product_owner| replace:: *Replace-with-name-and-email*
 
@@ -46,15 +45,15 @@
 {{cookiecutter.csc_name}}
 #########################
 
-.. update the following links to point to your CSC (rather than the athexapod)
-.. image:: https://img.shields.io/badge/GitHub-{{cookiecutter.csc_repo_name}}-green.svg
-    :target: https://github.com/lsst-ts/{{cookiecutter.csc_repo_name}}
-.. image:: https://img.shields.io/badge/Jenkins-{{cookiecutter.csc_repo_name}}-green.svg
-    :target: https://tssw-ci.lsst.org/job/LSST_Telescope-and-Site/job/{{cookiecutter.csc_repo_name}}/
-.. image:: https://img.shields.io/badge/Jira-{{cookiecutter.csc_repo_name}}-green.svg
-    :target: https://jira.lsstcorp.org/issues/?jql=labels+%3D+{{cookiecutter.csc_repo_name}}
-.. image:: https://img.shields.io/badge/ts_xml-{cookiecutter.csc_name}}-green.svg
+.. update the following links to point to your CSC
+.. image:: https://img.shields.io/badge/SAL-API-gray.svg
     :target: https://ts-xml.lsst.io/sal_interfaces/{{cookiecutter.csc_name}}.html
+.. image:: https://img.shields.io/badge/GitHub-gray.svg
+    :target: https://github.com/lsst-ts/{{cookiecutter.csc_repo_name}}
+.. image:: https://img.shields.io/badge/Jira-gray.svg
+    :target: https://jira.lsstcorp.org/issues/?jql=labels+%3D+{{cookiecutter.csc_repo_name}}
+.. image:: https://img.shields.io/badge/Jenkins-gray.svg
+    :target: https://tssw-ci.lsst.org/job/LSST_Telescope-and-Site/job/{{cookiecutter.csc_repo_name}}/
 
 .. TODO: Delete the note when the page becomes populated
 
@@ -67,11 +66,13 @@
 Overview
 ========
 
+:doc:`Contact info <ts_xml:index:master-csc-table:{cookiecutter.csc_name}>`
+
 [This section is to present an overview of the CSC.
 This should include a top-level description of the primary use-case(s) as well as any pertinent information.
 Example information may be link(s) to the higher-level classes which may be used to operate it, or mention of other CSCs (with links) that it operates in concert with.]
 
-.. note:: If you are interested in viewing other branches of this repository append a `/v` to the end of the url link. For example `https://ts-xml.lsst.io/v/`
+.. note:: If you are interested in viewing other branches of this repository append a `/v` to the end of the url link. For example `https://{{cookiecutter.csc_repo_name}}.lsst.io/v/`
 
 
 .. _User_Documentation:
@@ -135,14 +136,3 @@ The version history of the {{cookiecutter.csc_name}} is found at the following l
 .. toctree::
     version-history
     :maxdepth: 1
-
-
-.. _Contact_Personnel:
-
-Contact Personnel
-=================
-
-For questions not covered in the documentation, emails should be addressed to |CSC_developer| and |CSC_product_owner|.
-
-This page was last modified |today|.
-
