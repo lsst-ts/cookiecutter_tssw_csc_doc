@@ -4,16 +4,6 @@
 {{cookiecutter.csc_name}} Developer Guide
 #########################################
 
-.. Update these labels and links
-.. image:: https://img.shields.io/badge/GitHub-{{cookiecutter.csc_repo_name}}-green.svg
-    :target: https://github.com/lsst-ts/{{cookiecutter.csc_repo_name}}
-.. image:: https://img.shields.io/badge/Jenkins-{{cookiecutter.csc_repo_name}}-green.svg
-    :target: https://tssw-ci.lsst.org/job/LSST_Telescope-and-Site/job/{{cookiecutter.csc_repo_name}}/
-.. image:: https://img.shields.io/badge/Jira-{{cookiecutter.csc_repo_name}}-green.svg
-    :target: https://jira.lsstcorp.org/issues/?jql=labels+%3D+{{cookiecutter.csc_repo_name}}
-.. image:: https://img.shields.io/badge/ts_xml-{{cookiecutter.csc_name}}-green.svg
-    :target: https://ts-xml.lsst.io/sal_interfaces/{{cookiecutter.csc_name}}.html
-
 [This section should provide an introduction of the system to the developer and an brief overview of the CSC architecture.
 This should include links to background information where appropriate.]
 

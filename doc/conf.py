@@ -9,3 +9,5 @@ _g.update(build_package_configs(
     project_name='ts_barracuda',
     version=lsst.ts.Barracuda.version.__version__
 ))
+
+intersphinx_mapping["ts_xml"] = ("https://ts-xml.lsst.io", None)
