@@ -66,7 +66,7 @@ Barracuda
 Overview
 ========
 
-:doc:`Contact info <ts_xml:index:master-csc-table:Barracuda>`
+:ref:`Contact info <ts_xml:index:master-csc-table:Barracuda>`
 
 [This section is to present an overview of the CSC.
 This should include a top-level description of the primary use-case(s) as well as any pertinent information.
