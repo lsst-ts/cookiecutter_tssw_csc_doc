@@ -78,5 +78,5 @@ Contributing
 
 Code and documentation contributions utilize pull-requests on github.
 Feature requests can be made by filing a Jira ticket with the `Barracuda` label.
-In all cases, reaching out to the :ref:`contacts for this CSC <Contact_Personnel>` is recommended.
+In all cases, reaching out to the :ref:`contacts for this CSC <ts_xml:index:master-csc-table:Barracuda>` is recommended.
 
