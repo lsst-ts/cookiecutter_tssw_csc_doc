@@ -66,11 +66,11 @@
 Overview
 ========
 
-:ref:`Contact info <ts_xml:index:master-csc-table:{{cookiecutter.csc_name}}>`
-
 [This section is to present an overview of the CSC.
 This should include a top-level description of the primary use-case(s) as well as any pertinent information.
 Example information may be link(s) to the higher-level classes which may be used to operate it, or mention of other CSCs (with links) that it operates in concert with.]
+
+As with all CSCs, information on the package, developers and product owners can be found in the `Master CSC Table <ts_xml:index:master-csc-table:{{cookiecutter.csc_name}}>`_.
 
 .. note:: If you are interested in viewing other branches of this repository append a `/v` to the end of the url link. For example `https://{{cookiecutter.csc_repo_name}}.lsst.io/v/`
 
