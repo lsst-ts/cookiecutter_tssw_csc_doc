@@ -1,13 +1,11 @@
 """Sphinx configuration file for TSSW package"""
 
-from documenteer.sphinxconfig.stackconf import build_package_configs
-import lsst.ts.Barracuda
+from documenteer.conf.pipelinespkg import *
 
 
-_g = globals()
-_g.update(build_package_configs(
-    project_name='ts_barracuda',
-    version=lsst.ts.Barracuda.version.__version__
-))
+project = "ts_barracuda"
+html_theme_options["logotext"] = project
+html_title = project
+html_short_title = project
 
 intersphinx_mapping["ts_xml"] = ("https://ts-xml.lsst.io", None)

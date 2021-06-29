@@ -35,10 +35,6 @@
 
   Feel free to delete this instructional comment.
 
-.. Fill out data so contacts section below is auto-populated
-.. |CSC_developer| replace::  *Replace-with-name-and-email*
-.. |CSC_product_owner| replace:: *Replace-with-name-and-email*
-
 .. Note that the "ts_" prefix is omitted from the title
 
 #########################
